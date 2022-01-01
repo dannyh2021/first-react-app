@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="interactions"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value="redux"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </div>
+  <div
+    className="table"
+  />
+  <div
+    className="interactions"
+  >
+    <button
+      className=""
+      onClick={[Function]}
+      type="button"
+    >
+      More
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  className=""
+  type="button"
+>
+  Give Me More
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form>
+  <input
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-row"
+  >
+    <span>
+      <a>
+        1
+      </a>
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+    <span>
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        type="button"
+      >
+        Dismiss
+      </button>
+    </span>
+  </div>
+  <div
+    className="table-row"
+  >
+    <span>
+      <a>
+        2
+      </a>
+    </span>
+    <span>
+      2
+    </span>
+    <span>
+      1
+    </span>
+    <span>
+      2
+    </span>
+    <span>
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        type="button"
+      >
+        Dismiss
+      </button>
+    </span>
+  </div>
+</div>
+`;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import PropTypes from 'prop-types'
 import logo from './logo.svg';
 import './App.css';
 
@@ -211,4 +212,16 @@ class Button extends Component {
   }
 }
 
+Button.propTypes = {
+  onClick: PropTypes.func,
+  className: PropTypes.string,
+  chlidren: PropTypes.node
+}
+
 export default App;
+
+export {
+  Button,
+  Search,
+  Table
+}
