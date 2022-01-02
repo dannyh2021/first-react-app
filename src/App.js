@@ -290,12 +290,8 @@ class Table extends Component {
 const Sort = ({ sortKey, activeSortKey, onSort, children }) =>{
   const sortClass = classNames(
     'button-inline',
-    { 'button-active': sort === activeSortKey }
+    { 'button-active': sortKey === activeSortKey }
   )
-
-  if(sortKey === activeSortKey) {
-    sortClass.push('button-active')
-  }
 
   return(
     <Button
